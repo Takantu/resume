@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+@media (max-width: 550px){
+    .text_img{
+        display: flex;
+        flex-direction:  column;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .container .avatar {
+        display: flex;
+        align-items: center;
+        margin-left: 80px;   
+    }
+    h1 h2 {
+        font-size: 1rem;
+    }
+}
+body {
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color:#000000;
+    background-image: url(fon.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: 50% 0%;   
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px; 
+} 
+.avatar  {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5); 
+    border-radius: 20px;
+    width: 200px;
+    height: 240px;
+    margin-bottom: 20px; 
+}
+.text_img {
+    display: flex;
+    padding-bottom: 10px;
+}
+.text_img h1 {
+    color: #000085;
+
+}
+.text_img p {
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000000;
+    margin:0%
+}
+.group_card{
+    display: flex;
+    width: 100%;
+}
+.group_card .list_hob {
+    width: 30%;
+    margin-right: 15px;
+}
+.group_card .table_job {
+    width: 70%;
+}
+@media (max-width: 500px){
+    .container .group_card {
+        display: block;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .group_card .list_hob {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        margin-left: 150px;
+    }
+    .group_card .table_job {
+        display: block;
+        margin: 0;
+        margin-left: 50px;
+
+    }
+}
+/* Дизайн списка */
+.list {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+/* Дизаг таблицы */
+.table {
+    width: 100%;
+}
+.table td {
+    text-align: justify; 
+    padding-bottom: 5px; 
+    border: none;
+}
+.table tr:nth-child(even) {
+color: #050504;
+}
+.table tbody tr:nth-child(1) {
+    color: #4822f0;
+    }
+a {
+    color:#000;
+    text-decoration: none;   
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:#57070e;
+    padding: 10px 0;
+}
+.card {
+    background: linear-gradient(to bottom right, rgb(252, 252, 252), rgb(162, 155, 165));
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.text_img .card {
+    margin-left: 10px;
+}
+.card h2 {
+    color: #000085;
+     margin: 10px 0; 
+}
+.card .bg_green {
+ margin: 15px;
+}
+/* Дизайн Формы */
+.btn {
+    background-color: #1017f5;
+    padding: 20px 25px;
+    color:#dae2fa;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: #0f0f0e;
+    color:#dae2fa;
+    border: 2px solid #000085;
+}
+@media (max-width: 500px){
+    .form-row {
+        display: flex;
+        flex-direction:  column;
+    }
+    .form-row .Contact {
+       width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    }
+.Contact  {
+    line-height:2.0em;  
+    
+}
+.bg_green1 h2 {
+    text-align: center;
+}
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+ .form-row .Contact{
+    margin-right: 20px;
+    width: 50%;
+ }
+ .form-row .Contact:last-child{
+    margin-right: 0px;
+ }
+.Contact label{
+    display: block;
+    color: rgb(126, 122, 122);
+    font-size: 14px;
+}
+.Contact input, 
+.Contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #151516;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.bg_grad {
+    background: linear-gradient(to bottom right, rgb(169, 169, 255),rgb(221, 236, 135), rgb(106, 106, 243));
+}
